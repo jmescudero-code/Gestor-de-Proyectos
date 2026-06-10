@@ -10,7 +10,11 @@ export default function Sidebar() {
   const pathname = usePathname();
 
   const handleLogout = async () => {
-    await supabase.auth.signOut();
+    try {
+      await supabase.auth.signOut();
+    } catch (err) {
+      console.warn('Error al intentar cerrar sesión en Supabase (modo placeholder):', err);
+    }
     window.location.href = '/login';
   };
 
