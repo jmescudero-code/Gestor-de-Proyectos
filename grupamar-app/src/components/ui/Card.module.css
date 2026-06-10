@@ -1,0 +1,21 @@
+.card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-md); /* 12px por defecto para contenedores medianos */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 1.5rem;
+  overflow: hidden;
+}
+
+.cardHeader {
+  margin-bottom: 1rem;
+}
+
+.cardTitle {
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--color-dark-blue);
+}
+
+.cardContent {
+  /* Contenido base */
+}

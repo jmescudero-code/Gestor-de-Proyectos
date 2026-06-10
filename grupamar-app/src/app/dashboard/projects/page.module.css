@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table th,
+.table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.table th {
+  font-weight: 600;
+  color: var(--color-dark-blue);
+  background-color: var(--color-light-gray);
+  white-space: nowrap;
+}
+
+.rowGroup {
+  background-color: #fafafa;
+  font-weight: bold;
+}
+
+.rowProject {
+  background-color: var(--color-white);
+}
+
+.rowAction {
+  background-color: var(--color-white);
+}
+
+.rowSubtask {
+  background-color: var(--color-white);
+}
+
+.statusBadge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.statusNoIniciada {
+  background-color: #e5e7eb;
+  color: #4b5563;
+}
+
+.statusEnCurso {
+  background-color: #dbeafe;
+  color: var(--color-dark-blue);
+}
+
+.statusListo {
+  background-color: #dcfce3;
+  color: #166534;
+}
+
+.progressBar {
+  width: 100%;
+  height: 8px;
+  background-color: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 0.25rem;
+}
+
+.progressFill {
+  height: 100%;
+  background-color: var(--color-light-blue);
+  border-radius: 4px;
+}

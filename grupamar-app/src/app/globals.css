@@ -1,0 +1,38 @@
+:root {
+  /* Colores Corporativos */
+  --color-white: #ffffff;
+  --color-dark-blue: #091197;
+  --color-light-blue: #03A9EC;
+  --color-light-gray: #f6f6f6;
+  --color-orange: #F75600;
+  
+  /* Sistema de Redondez (Múltiplos de 4pts) */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial Nova', Arial, Helvetica, sans-serif;
+  background-color: var(--color-light-gray);
+  color: var(--color-dark-blue);
+}
+
+a {
+  color: var(--color-light-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}

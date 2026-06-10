@@ -1,0 +1,42 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 0.75rem 1.5rem;
+  /* El manual especifica múltiples de 4, por defecto 8px para botones pero el contenedor usa más */
+  border-radius: var(--radius-sm);
+  gap: 0.5rem;
+}
+
+.primary {
+  background-color: var(--color-dark-blue);
+  color: var(--color-white);
+}
+
+.primary:hover {
+  background-color: #0b15ba; /* ligeramente más claro */
+}
+
+.secondary {
+  background-color: var(--color-light-blue);
+  color: var(--color-white);
+}
+
+.secondary:hover {
+  background-color: #04b3f8;
+}
+
+.outline {
+  background-color: transparent;
+  color: var(--color-dark-blue);
+  border: 2px solid var(--color-dark-blue);
+}
+
+.outline:hover {
+  background-color: var(--color-light-gray);
+}

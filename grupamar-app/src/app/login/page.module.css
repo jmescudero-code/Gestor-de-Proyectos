@@ -1,0 +1,44 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-light-gray);
+  padding: 1rem;
+}
+
+.loginCard {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.logoContainer {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Emulando el logotipo con CSS para este MVP */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-dark-blue);
+  font-style: italic;
+}
+
+.subtitle {
+  color: var(--color-light-blue);
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 0.25rem;
+}
+
+.googleButton {
+  width: 100%;
+  margin-top: 1.5rem;
+}
